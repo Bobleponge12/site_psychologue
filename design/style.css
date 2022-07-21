@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Updock&display=swap");
+
+html,
+body {
+    margin: O;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+footer {
+    color: black;
+    padding: 30px;
+}
+
+header {
+    background-image: url(../img/psy/psychologist_1280x723.jpg);
+    background-size: cover;
+    height: 75%;
+}
+
+#textPresentation {
+    font-size: x-large;
+}
+
+#bodyMessageEnvoye {
+    background-image: url(../img/numerique/help1280x1920.jpg);
+}
+
+#divMessageEnvoye {
+    margin: 0 auto;
+    background: #541690;
+    color: azure;
+    border: 1px solid brown;
+    border-radius: 10%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.texteBlanc {
+    color: aliceblue;
+}
+
+.cardFondUn {
+    background: #f7f7f7;
+}
+
+.cardFondDeux {
+    background: #eeeeee;
+}
+
+.carteImg {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.carteTitre {
+    font-size: x-large;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    /* background: rgb(192, 192, 192); */
+}
+
+.cardText {
+    /* background: #7dd6ff; */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.aMailEnvoye {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header-text {
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+}
+
+.fondBody {
+    background-image: url(../img/numerique/help1280x1920.jpg);
+    background-size: cover;
+}
+
+.title {
+    background: #504b47;
+    font-family: "Updock";
+    font-size: 4rem;
+}
+
+.textPresentation {
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.formulaire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.afterTitle {
+    margin-top: 100px;
+}
+
+.preFooter {
+    margin-bottom: 200px;
+}
+
+.rs {
+    font-size: larger;
+}
+
+.aMailEnvoye:hover {
+    font-weight: bolder;
+    color: aquamarine;
+}
+
+/* ANIMATIONS */
+/* Animation mail envoyé */
+@keyframes glissement {
+    from {
+        margin-left: -30%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 100%;
+        width: 100%;
+    }
+}
+
+#imgMail {
+    animation-direction: normal;
+    animation-duration: 5s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+}
+
+/* Animation mail envoyé fin */
+
+/* Animation cartes */
+@keyframes fontSize {
+    from {
+        font-size: 0px;
+    }
+
+    to {
+        font-size: medium;
+    }
+}
+
+.cardText {
+    animation-duration: 5s;
+    animation-name: fontSize;
+}
+/* 
+@keyframes cardBackground {
+    from {
+        background: #7dd6ff;
+    }
+
+    to {
+        background: #541690;
+    }
+}
+
+.cardBackground {
+    animation-name: cardBackground;
+    animation-duration: 5s;
+} */
+
+@keyframes textFall {
+    0% {
+        left: 0px;
+        top: -800px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.cardTitle {
+    position: relative;
+    animation-name: textFall;
+    animation-duration: 5s;
+    /* background: rgb(192, 192, 192); */
+}
+
+@keyframes imgAppear {
+    0% {
+        left: -600px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+.cardImg {
+    position: relative;
+    animation-name: imgAppear;
+    animation-duration: 5s;
+}
+
+/* Animation cartes fin */
+/* ANIMATION FIN */

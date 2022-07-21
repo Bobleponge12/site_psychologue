@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../design/style.css" />
+        <link rel="stylesheet" href="../design/bootstrap.min.css" />
+        <link rel="stylesheet" href="../design/bootstrap.min.css.map" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+        />
+
+        <title>Accueil</title>
+    </head>
+    <body class="fondBody">
+        <!-- HEADER -->
+        <header class="container-fluid">
+            <div class="header-text">
+                <h2 style="font-size: 50px">
+                    Mathilde <span class="texteBlanc">GIRON</span>
+                </h2>
+                <h3>Psychologue clinicienne <span class="texteBlanc">Toulouse</span></h3>
+                <a class="btn btn-primary mt-2" href="../contact.php" role="button"
+                    >Contactez moi</a
+                >
+            </div>
+        </header>
+        <!-- FIN HEADER -->
+
+        <div>
+            <!-- MENU -->
+            <nav class="navbar navbar-light bg-light navbar-expand-md sticky-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img
+                            src="../img/psy/kisspng-psychology-symbol-logo-sign-concept-5af5d10100ec74.7458124215260592650038.webp"
+                            width="30"
+                            height="15"
+                            alt="Logo psychologue"
+                            style="border-radius: 50%"
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active"
+                                    aria-current="page"
+                                    href="./index.html"
+                                    >Accueil</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../services.html">Services</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="../contact.php">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link"
+                                    href="../test.html"
+                                    tabindex="-1"
+                                    aria-disabled="true"
+                                    >Test</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- TITRE -->
+
+            <div class="container-fluid title">
+                <p class="text-center">Présentation</p>
+            </div>
+            <!-- FIN TITRE -->
+
+            <!-- PRESENTATION -->
+            <section class="container-fluid afterTitle">
+                <!-- Carroussel -->
+                <div class="container w-50 p-5">
+                    <div
+                        id="carouselExampleIndicators"
+                        class="carousel slide"
+                        data-bs-ride="carousel"
+                    >
+                        <div class="carousel-indicators">
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="0"
+                                class="active"
+                                aria-current="true"
+                                aria-label="Slide 1"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="1"
+                                aria-label="Slide 2"
+                            ></button>
+                            <button
+                                type="button"
+                                data-bs-target="#carouselExampleIndicators"
+                                data-bs-slide-to="2"
+                                aria-label="Slide 3"
+                            ></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img
+                                    src="../img/numerique/maman_fille_smartphone1280x853.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="../img/numerique/ordi_homme_cheveux_blanc1280x853.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                />
+                            </div>
+                            <div class="carousel-item">
+                                <img
+                                    src="../img/numerique/femme_perplexe_ordi1280x853.jpg"
+                                    class="d-block w-100"
+                                    alt="..."
+                                />
+                            </div>
+                        </div>
+                        <button
+                            class="carousel-control-prev"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev"
+                        >
+                            <span
+                                class="carousel-control-prev-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Précédent</span>
+                        </button>
+                        <button
+                            class="carousel-control-next"
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next"
+                        >
+                            <span
+                                class="carousel-control-next-icon"
+                                aria-hidden="true"
+                            ></span>
+                            <span class="visually-hidden">Suivant</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Texte Présentation -->
+                <div class="container">
+                    <div class="container-fluid textPresentation">
+                        <p id="textPresentation">
+                            Mathilde Giront est psychologue et psychothérapeute pour les
+                            adultes, les adolescents, les enfants et les couples.
+                            <br /><br />
+
+                            Elle est notamment spécialisée dans les problématiques des
+                            adolescents et des jeunes adultes : questionnement sur son
+                            identité, son rapport aux autres et au monde, relation
+                            intrafamiliale, symptomatologie anxieuse, difficulté de
+                            séparation et d'autonomisation, scolarité, orientation d'étude
+                            et professionnelle, etc. <br />
+                            Période de transition, de séparation psychique, l'adolescence
+                            et l'entrée dans l'âge adulte sont souvent des moments
+                            complexes qui nécessitent d'être accompagné par un tiers pour
+                            permettre de trouver son propre chemin et ses propres réponses
+                            aux questions : qui suis-je, où vais-je, pourquoi faire, dans
+                            quel système de valeurs, etc. <br /><br />
+
+                            Elle intervient notamment sur les problématiques suivantes
+                            :<br /><br />
+
+                            - difficulté relationnelle intra-familiale avec possibilité de
+                            consultation familiale ; <br />
+                            - anxiété de séparation, difficulté d'autonomisation ;<br />
+                            - dépendance affective, angoisse d'abandon ; <br />
+                            - anxiété de performance, phobie scolaire, burnout ; <br />
+                            - anxiété d'anticipation, rumination ; <br />
+                            - difficulté relationnelle, anxiété sociale ; <br />
+                            - hypersensibilité émotionnelle, gestion des émotions ; <br />
+                            - estime de soi et confiance en soi ;<br />
+                            - surinvestissement du regard des autres et de l'évaluation ;
+                            <br />
+                            - quête identitaire et conflit psychique interpersonnel ;
+                            <br />
+                            - conduite à risque, trouble dépressif, trouble borderline,
+                            bipolarité ; <br />
+                            - soutien psychologique et psycho-éducation pour les familles
+                            et les conjoints ;<br />
+                            - accompagnement de situations traumatiques notamment
+                            situation du deuil d'un parent ou problématique psychiatrique
+                            d'un parent ;<br />
+                            - orientation scolaire, post-bac et professionnel.<br /><br />
+
+                            Elle reçoit également de nombreux patients adultes en
+                            psychothérapie avec lesquels elle privilégie un véritable
+                            échange et dialogue.<br /><br />
+
+                            Le travail psychothérapeutique permet au patient d'analyser
+                            ses aliénations et ses blocages afin de se libérer de la
+                            répétition de ses symptômes et de ses scénarios de vie. <br />
+                            L'objectif pour le patient est d'acquérir, peu à peu, une
+                            nouvelle façon de fonctionner dans sa vie, dans son rapport au
+                            monde et aux autres, une nouvelle position subjective et donc
+                            de gagner une liberté nouvelle. <br /><br />
+
+                            L'objectif de la thérapie est défini avec le patient et les
+                            méthodes de travail choisies en fonction des symptômes et de
+                            la demande des patients : <br /><br />
+
+                            - thérapie analytique ;<br />
+                            - thérapie de soutien ; <br />
+                            - techniques cognitives et comportementales afin de soulager
+                            certains symptômes tels que l'anxiété et les attaques de
+                            panique ou lors de la prise en charge de dépression et de
+                            trouble borderline ;<br />
+                            - thérapie des schémas ;<br />
+                            - accompagnement psychothérapeutique lors de dépressions
+                            graves ou lors de sorties d'hospitalisation grâce à la mise en
+                            place d'un suivi quotidien de réadaptation à la réalité.<br /><br />
+
+                            Il est nécessaire d'identifier les causes du mal-être
+                            psychique afin de ne pas répéter en permanence des schémas de
+                            vie, mais il est également indispensable d'être l'acteur de
+                            son propre changement au cours de sa thérapie.<br />
+
+                            Elle travaille également depuis de nombreuses années sur les
+                            problématiques amoureuses et sur le couple : <br />
+
+                            - choix du partenaire ;<br />
+                            - répétition des scénarios ;<br />
+                            - difficulté à l'engagement ;<br />
+                            - crise de milieu de vie ;<br />
+                            - séparation ;<br />
+                            - obsession amoureuse ;<br />
+                            - dépendance affective ;<br />
+                            - jalousie ;<br />
+                            - adultère ;<br />
+                            - rapport à la séduction ;<br />
+                            - position et place dans le couple ;<br />
+                            - désir d'enfant ;<br /><br />
+
+                            Psychothérapeute de couple, elle intervient auprès de nombreux
+                            couples en difficulté. Elle permet aux deux parties de mieux
+                            s'écouter, de tenir compte des désirs et des ressentis de
+                            chacun et de dépasser des moments de crise. Chacun est entendu
+                            dans son individualité afin d'élaborer ce vers quoi le couple
+                            souhaite aller. <br /><br />
+
+                            Elle est également psychothérapeute pour enfants et travaille
+                            particulièrement sur les relations parent-enfant et sur leurs
+                            interactions.<br />
+                            Les parents et la famille sont partie prenante du processus
+                            thérapeutique et sont sollicités pour participer à des
+                            entretiens tout au long de la thérapie de l'enfant. "Lorsque
+                            l'enfant vient en consultation, il arrive avec sa
+                            personnalité, son psychisme et son histoire, mais il vient
+                            aussi avec l'histoire et le psychisme de ses parents en
+                            lui".<br />
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer class="d-flex justify-content-around bg-light">
+                <div class="p-2 kt">
+                    <i class="bi bi-facebook me-1"></i>
+                    <i class="bi bi-instagram me-1"></i>
+                    <i class="bi bi-twitter me-1"></i>
+                    <i class="bi bi-tiktok me-1"></i>
+                    <i class="bi bi-snapchat me-1"></i>
+                </div>
+                <div class="p-2"></div>
+                <div class="p-2 kt">2022 &copy; Karim Tareb</div>
+            </footer>
+            <!-- FIN FOOTER -->
+        </div>
+
+        <!-- BOOTSTRAP AVEC JS -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
